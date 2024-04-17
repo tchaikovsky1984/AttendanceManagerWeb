@@ -1,0 +1,89 @@
+form{
+  display: flex;
+  flex-direction : column; 
+}
+
+.InfoPack {
+  display: flex;
+  flex-direction : column; 
+}
+
+button{
+  border : none;
+  border-radius : 5px;
+  height : 20px;
+  background : #4f4f4f;
+  color : white;
+  width : 30%;
+  margin-top : 5%;
+  margin-left : 20%;
+  margin-bottom : 5%;
+  font-family : 'JetBrains-Mono' 'Garamond' 'Lucida Console';
+}
+
+button:hover{
+  border : 1px solid white;
+  background : #202020;
+  height : 20px;
+}
+
+.left {
+  display : flex;
+  flex-direction : column;
+  width : 25%;
+}
+
+.right {
+  display : flex;
+  flex-direction : column;
+  width : 25%;
+}
+
+.inputContainer{
+  display : flex;
+  flex-direction : row;
+  padding : 5px; 
+  margin : 5px;
+  background : #2f2f2f;
+  border-radius : 15px;
+  justify-content : space-evenly;
+}
+
+.FormText{
+  color : white;
+  font-style : italic; 
+  font-family : 'JetBrains-Mono' 'Garamond' 'Lucida Console';
+}
+
+.FormHeader{
+  color : white;
+  font-style : bold;
+  font-family : 'JetBrains-Mono' 'Garamond' 'Lucida Console';
+}
+
+.inDiv {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  padding : 0px;
+  margin : 5px;
+}
+
+.inDiv:hover{
+  .FormText{
+    text-decoration-line : underline;
+    text-decoration-thickness : 1px;
+  }
+  input{
+    background : #202020;
+    border : 1px solid white;
+  }
+}
+
+input {
+  background : #3f3f3f;
+  color : white;
+  border : none;
+  border-radius : 5px;
+  font-family : 'JetBrains-Mono' 'Garamond' 'Lucida Console';
+}

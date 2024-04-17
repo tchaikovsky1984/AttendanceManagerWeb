@@ -1,0 +1,31 @@
+.App {
+  display : fill;
+  padding : 5px;
+  margin-right : 5px;
+  background : #1f1f1f;
+}
+
+.titleContainer {
+  display : flex;
+  flex-direction : row;
+  padding : 5px; 
+  margin : 5px;
+  background : #2f2f2f;
+  border-radius : 15px;
+}
+
+.titleTextBo{
+  font-style : bold;
+  padding: 5px;
+  color : white;
+  text-decoration-line : underline;
+  text-decoration-color : white;
+  text-decoration-thickness : 1px;
+}
+
+.titleTextIt {
+  margin-top : 30px;
+  color : white;
+  font-style : italic;
+}
+
